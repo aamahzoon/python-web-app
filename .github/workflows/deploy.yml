@@ -36,6 +36,6 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./  # این کار رو نکنید، فقط برای ساخت
+        #publish_dir: ./  # این کار رو نکنید، فقط برای ساخت
         force_orphan: true
         keep_files: false
